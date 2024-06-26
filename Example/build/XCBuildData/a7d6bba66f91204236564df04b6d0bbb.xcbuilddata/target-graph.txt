@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'Pods-SumtheNumber_Tests' in project 'Pods'
+➜ Explicit dependency on target 'FBSnapshotTestCase' in project 'Pods'
+➜ Explicit dependency on target 'Pods-SumtheNumber_Example' in project 'Pods'
+Target 'Pods-SumtheNumber_Example' in project 'Pods'
+➜ Explicit dependency on target 'SumtheNumber' in project 'Pods'
+Target 'SumtheNumber' in project 'Pods' (no dependencies)
+Target 'FBSnapshotTestCase' in project 'Pods' (no dependencies)

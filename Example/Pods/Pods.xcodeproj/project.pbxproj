@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBB9482186240402E129AAB28DF2513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C60500B7C78C75C30DC8E5B0E3E1E90 /* Pods-SumtheNumber_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D11C8D700B4824D929223B93BED2E3 /* Pods-SumtheNumber_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F12126BC9A6C2FF0896EFC369096E33 /* Pods-SumtheNumber_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D8EC742D7824FE112F9F6F6C801610 /* Pods-SumtheNumber_Tests-dummy.m */; };
+		8CD514EF75968AD09616AEA0A564C1D2 /* SumtheNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AB0BC8EDBBFDCD5E7EAB77FD6FB08 /* SumtheNumber.swift */; };
+		96D058E20A6F24DD341195D6B624254A /* Pods-SumtheNumber_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A962AF7C9E8EE5713C2699CBB75724D8 /* Pods-SumtheNumber_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36BCF079BCB7FA150FD40680411F3C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D63E5B3EC9F5EC1E3CA9BA3E932A8265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF77E2F5CD3797D0A03E82552624DCC8 /* SumtheNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1609F39C27D863565664C49333F71F2F /* SumtheNumber-dummy.m */; };
+		E1E358CCA43E835928EA2BF9D436F822 /* SumtheNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B2B715B8313084A35B1FD8A71A9A57 /* SumtheNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB42A3971CD20C7EBA8AF5745DAEDAFD /* Pods-SumtheNumber_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C6791FAB3F158E81DC525042D4B44 /* Pods-SumtheNumber_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EE0BABC79539A2E78F119A6862F328C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD70146BE53AF03B3E3136FD573E8DD;
+			remoteInfo = "Pods-SumtheNumber_Example";
+		};
+		5C5A5BEB95B5645E4A54734D305950C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4218C290BDED2F9FAB319899FA527299;
+			remoteInfo = SumtheNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1609F39C27D863565664C49333F71F2F /* SumtheNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SumtheNumber-dummy.m"; sourceTree = "<group>"; };
+		1950C1713C15301D82D182649DEB0519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		19575B5FC80E7DB664DAF4D70A0963C4 /* SumtheNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SumtheNumber-Info.plist"; sourceTree = "<group>"; };
+		1AE9AB821DBFA433490C235E2839DCBE /* Pods-SumtheNumber_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SumtheNumber_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D06FC7836E958AA815A0F8F52FF9923 /* Pods-SumtheNumber_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SumtheNumber_Example.modulemap"; sourceTree = "<group>"; };
+		317E9C2C82D3F4A233B64110EF54D970 /* Pods-SumtheNumber_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumtheNumber_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35D8EC742D7824FE112F9F6F6C801610 /* Pods-SumtheNumber_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SumtheNumber_Tests-dummy.m"; sourceTree = "<group>"; };
+		4092244C2CE18AFE8E732D90D52983EF /* Pods-SumtheNumber_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SumtheNumber_Tests"; path = Pods_SumtheNumber_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518AB0BC8EDBBFDCD5E7EAB77FD6FB08 /* SumtheNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumtheNumber.swift; path = Classes/SumtheNumber.swift; sourceTree = "<group>"; };
+		5554E9FEC3600AD868392770D00D7282 /* Pods-SumtheNumber_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumtheNumber_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A95B5FFBBDCC83B3D88DF922B839C1D /* Pods-SumtheNumber_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumtheNumber_Tests-Info.plist"; sourceTree = "<group>"; };
+		5AED246BD08CC31970F719B339944B86 /* SumtheNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SumtheNumber.modulemap; sourceTree = "<group>"; };
+		5C625D8F7F1B6B353BE177D8A889A3C9 /* Pods-SumtheNumber_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SumtheNumber_Example-frameworks.sh"; sourceTree = "<group>"; };
+		673BFCC82126EB8DBDAAA080281E4FEB /* Pods-SumtheNumber_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumtheNumber_Example-Info.plist"; sourceTree = "<group>"; };
+		6B999CDB9FFE8D84F235C4891418B4DA /* SumtheNumber */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SumtheNumber; path = SumtheNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F70AE80F171015436F03A1C1D9F41BA /* Pods-SumtheNumber_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumtheNumber_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86B2B715B8313084A35B1FD8A71A9A57 /* SumtheNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumtheNumber-umbrella.h"; sourceTree = "<group>"; };
+		90EABFF3602C38E8DDA23E3E0A5EB4FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E27C9E74BF5B4E6F57259CB99BF8C6C /* Pods-SumtheNumber_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumtheNumber_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A55E7B296481E0550A94FA98176FE528 /* SumtheNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumtheNumber.debug.xcconfig; sourceTree = "<group>"; };
+		A79C87E69549943330E9E077C97C1675 /* Pods-SumtheNumber_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SumtheNumber_Tests.modulemap"; sourceTree = "<group>"; };
+		A7D11C8D700B4824D929223B93BED2E3 /* Pods-SumtheNumber_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SumtheNumber_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A962AF7C9E8EE5713C2699CBB75724D8 /* Pods-SumtheNumber_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SumtheNumber_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD612FC587B50F50885EDC61E6595296 /* Pods-SumtheNumber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumtheNumber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6C6791FAB3F158E81DC525042D4B44 /* Pods-SumtheNumber_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SumtheNumber_Example-dummy.m"; sourceTree = "<group>"; };
+		D2F827508FFE88F066E908B3972E83E3 /* Pods-SumtheNumber_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SumtheNumber_Example"; path = Pods_SumtheNumber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E332E160BA20843E1695CE333629F3A8 /* Pods-SumtheNumber_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumtheNumber_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDAD7CAFA477F7B34528AF8A382FC991 /* SumtheNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumtheNumber.release.xcconfig; sourceTree = "<group>"; };
+		F645FBCCE60F07D51602CB54FC6F60C8 /* SumtheNumber.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SumtheNumber.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F65CB5264F05EB4AC8031204E8EBE861 /* Pods-SumtheNumber_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SumtheNumber_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA23E0C5C304261DD0B90C7446708BCD /* SumtheNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumtheNumber-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328390B90F9E550A116EDD1123E6E572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBB9482186240402E129AAB28DF2513 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF00563B820C9190E1E6392EB7BE61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63E5B3EC9F5EC1E3CA9BA3E932A8265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E529B3C187ABC5D0ED80AA74C65893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BCF079BCB7FA150FD40680411F3C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A98DDEBA159E3E69F92A0DE5013D357 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9074F1360E9ACD3338333433CE752BA /* Pods-SumtheNumber_Example */,
+				FADE4A251F6FC3B7D11F508197062FCF /* Pods-SumtheNumber_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F11178CAA9369CE7E520B9D704B2B52 /* SumtheNumber */ = {
+			isa = PBXGroup;
+			children = (
+				518AB0BC8EDBBFDCD5E7EAB77FD6FB08 /* SumtheNumber.swift */,
+				899A7C89AEB5218E6B18F92BE40772C8 /* Pod */,
+				97BF5398726D1B9BB68C908F3AFBCCB1 /* Support Files */,
+			);
+			name = SumtheNumber;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C386BF3A001A02588A02609AFC3A72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F827508FFE88F066E908B3972E83E3 /* Pods-SumtheNumber_Example */,
+				4092244C2CE18AFE8E732D90D52983EF /* Pods-SumtheNumber_Tests */,
+				6B999CDB9FFE8D84F235C4891418B4DA /* SumtheNumber */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6359E630EF0078A2E3AD091E0AF5F5C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F11178CAA9369CE7E520B9D704B2B52 /* SumtheNumber */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		899A7C89AEB5218E6B18F92BE40772C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1950C1713C15301D82D182649DEB0519 /* LICENSE */,
+				90EABFF3602C38E8DDA23E3E0A5EB4FC /* README.md */,
+				F645FBCCE60F07D51602CB54FC6F60C8 /* SumtheNumber.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		97BF5398726D1B9BB68C908F3AFBCCB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AED246BD08CC31970F719B339944B86 /* SumtheNumber.modulemap */,
+				1609F39C27D863565664C49333F71F2F /* SumtheNumber-dummy.m */,
+				19575B5FC80E7DB664DAF4D70A0963C4 /* SumtheNumber-Info.plist */,
+				FA23E0C5C304261DD0B90C7446708BCD /* SumtheNumber-prefix.pch */,
+				86B2B715B8313084A35B1FD8A71A9A57 /* SumtheNumber-umbrella.h */,
+				A55E7B296481E0550A94FA98176FE528 /* SumtheNumber.debug.xcconfig */,
+				EDAD7CAFA477F7B34528AF8A382FC991 /* SumtheNumber.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SumtheNumber";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6359E630EF0078A2E3AD091E0AF5F5C9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5C386BF3A001A02588A02609AFC3A72C /* Products */,
+				2A98DDEBA159E3E69F92A0DE5013D357 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9074F1360E9ACD3338333433CE752BA /* Pods-SumtheNumber_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D06FC7836E958AA815A0F8F52FF9923 /* Pods-SumtheNumber_Example.modulemap */,
+				F65CB5264F05EB4AC8031204E8EBE861 /* Pods-SumtheNumber_Example-acknowledgements.markdown */,
+				9E27C9E74BF5B4E6F57259CB99BF8C6C /* Pods-SumtheNumber_Example-acknowledgements.plist */,
+				AE6C6791FAB3F158E81DC525042D4B44 /* Pods-SumtheNumber_Example-dummy.m */,
+				5C625D8F7F1B6B353BE177D8A889A3C9 /* Pods-SumtheNumber_Example-frameworks.sh */,
+				673BFCC82126EB8DBDAAA080281E4FEB /* Pods-SumtheNumber_Example-Info.plist */,
+				A962AF7C9E8EE5713C2699CBB75724D8 /* Pods-SumtheNumber_Example-umbrella.h */,
+				317E9C2C82D3F4A233B64110EF54D970 /* Pods-SumtheNumber_Example.debug.xcconfig */,
+				6F70AE80F171015436F03A1C1D9F41BA /* Pods-SumtheNumber_Example.release.xcconfig */,
+			);
+			name = "Pods-SumtheNumber_Example";
+			path = "Target Support Files/Pods-SumtheNumber_Example";
+			sourceTree = "<group>";
+		};
+		FADE4A251F6FC3B7D11F508197062FCF /* Pods-SumtheNumber_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A79C87E69549943330E9E077C97C1675 /* Pods-SumtheNumber_Tests.modulemap */,
+				1AE9AB821DBFA433490C235E2839DCBE /* Pods-SumtheNumber_Tests-acknowledgements.markdown */,
+				E332E160BA20843E1695CE333629F3A8 /* Pods-SumtheNumber_Tests-acknowledgements.plist */,
+				35D8EC742D7824FE112F9F6F6C801610 /* Pods-SumtheNumber_Tests-dummy.m */,
+				5A95B5FFBBDCC83B3D88DF922B839C1D /* Pods-SumtheNumber_Tests-Info.plist */,
+				A7D11C8D700B4824D929223B93BED2E3 /* Pods-SumtheNumber_Tests-umbrella.h */,
+				AD612FC587B50F50885EDC61E6595296 /* Pods-SumtheNumber_Tests.debug.xcconfig */,
+				5554E9FEC3600AD868392770D00D7282 /* Pods-SumtheNumber_Tests.release.xcconfig */,
+			);
+			name = "Pods-SumtheNumber_Tests";
+			path = "Target Support Files/Pods-SumtheNumber_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A6AC284A050420CB1C4DF79992AB39F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E358CCA43E835928EA2BF9D436F822 /* SumtheNumber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D4381785DCD03F5515D768699E823A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C60500B7C78C75C30DC8E5B0E3E1E90 /* Pods-SumtheNumber_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F556AE297200541C948705C70120DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D058E20A6F24DD341195D6B624254A /* Pods-SumtheNumber_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CD70146BE53AF03B3E3136FD573E8DD /* Pods-SumtheNumber_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF508C3BCB8D93E15C2FBE1447FD462 /* Build configuration list for PBXNativeTarget "Pods-SumtheNumber_Example" */;
+			buildPhases = (
+				F1F556AE297200541C948705C70120DB /* Headers */,
+				1D301901CA971AC8FC314F7335406C24 /* Sources */,
+				ACF00563B820C9190E1E6392EB7BE61B /* Frameworks */,
+				B634816A6FD5D23E907C8A4FEB8C5305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153358BFF707A42D49B1549FAA972EA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SumtheNumber_Example";
+			productName = Pods_SumtheNumber_Example;
+			productReference = D2F827508FFE88F066E908B3972E83E3 /* Pods-SumtheNumber_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4218C290BDED2F9FAB319899FA527299 /* SumtheNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185AA458D1F3BF123A008784D5F8B363 /* Build configuration list for PBXNativeTarget "SumtheNumber" */;
+			buildPhases = (
+				8A6AC284A050420CB1C4DF79992AB39F /* Headers */,
+				CC690C07D291CC2C75BC3EDBA6985C7B /* Sources */,
+				C5E529B3C187ABC5D0ED80AA74C65893 /* Frameworks */,
+				5B545546836E2C2F21C69E1472EADBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumtheNumber;
+			productName = SumtheNumber;
+			productReference = 6B999CDB9FFE8D84F235C4891418B4DA /* SumtheNumber */;
+			productType = "com.apple.product-type.framework";
+		};
+		94664CA169E1333B68E018736CC37D14 /* Pods-SumtheNumber_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3299001F6305DF188EC2D758F2682DA0 /* Build configuration list for PBXNativeTarget "Pods-SumtheNumber_Tests" */;
+			buildPhases = (
+				C3D4381785DCD03F5515D768699E823A /* Headers */,
+				71C956A30AE0F8FAF06333B7EAD88651 /* Sources */,
+				328390B90F9E550A116EDD1123E6E572 /* Frameworks */,
+				B1131759EC593D43A522019FCF9EA694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				159A2319B364A7EF27E65E3A23B8C9D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SumtheNumber_Tests";
+			productName = Pods_SumtheNumber_Tests;
+			productReference = 4092244C2CE18AFE8E732D90D52983EF /* Pods-SumtheNumber_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5C386BF3A001A02588A02609AFC3A72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD70146BE53AF03B3E3136FD573E8DD /* Pods-SumtheNumber_Example */,
+				94664CA169E1333B68E018736CC37D14 /* Pods-SumtheNumber_Tests */,
+				4218C290BDED2F9FAB319899FA527299 /* SumtheNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B545546836E2C2F21C69E1472EADBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1131759EC593D43A522019FCF9EA694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B634816A6FD5D23E907C8A4FEB8C5305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D301901CA971AC8FC314F7335406C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB42A3971CD20C7EBA8AF5745DAEDAFD /* Pods-SumtheNumber_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C956A30AE0F8FAF06333B7EAD88651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12126BC9A6C2FF0896EFC369096E33 /* Pods-SumtheNumber_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC690C07D291CC2C75BC3EDBA6985C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD514EF75968AD09616AEA0A564C1D2 /* SumtheNumber.swift in Sources */,
+				DF77E2F5CD3797D0A03E82552624DCC8 /* SumtheNumber-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153358BFF707A42D49B1549FAA972EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SumtheNumber;
+			target = 4218C290BDED2F9FAB319899FA527299 /* SumtheNumber */;
+			targetProxy = 5C5A5BEB95B5645E4A54734D305950C3 /* PBXContainerItemProxy */;
+		};
+		159A2319B364A7EF27E65E3A23B8C9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SumtheNumber_Example";
+			target = 0CD70146BE53AF03B3E3136FD573E8DD /* Pods-SumtheNumber_Example */;
+			targetProxy = 0EE0BABC79539A2E78F119A6862F328C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27B8BF701412C6086D1A9F0930B6BCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317E9C2C82D3F4A233B64110EF54D970 /* Pods-SumtheNumber_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SumtheNumber_Example/Pods-SumtheNumber_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SumtheNumber_Example/Pods-SumtheNumber_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74E9EF832C142E5C49A9576929D72F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDAD7CAFA477F7B34528AF8A382FC991 /* SumtheNumber.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SumtheNumber/SumtheNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SumtheNumber/SumtheNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SumtheNumber/SumtheNumber.modulemap";
+				PRODUCT_MODULE_NAME = SumtheNumber;
+				PRODUCT_NAME = SumtheNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7709960EC0F1DC67BA68F047FA551C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5554E9FEC3600AD868392770D00D7282 /* Pods-SumtheNumber_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SumtheNumber_Tests/Pods-SumtheNumber_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SumtheNumber_Tests/Pods-SumtheNumber_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B61F3F181C8B8A2E2662499B6D044EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F70AE80F171015436F03A1C1D9F41BA /* Pods-SumtheNumber_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SumtheNumber_Example/Pods-SumtheNumber_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SumtheNumber_Example/Pods-SumtheNumber_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD5FD4B2966D137BE9A075F8F2E09073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55E7B296481E0550A94FA98176FE528 /* SumtheNumber.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SumtheNumber/SumtheNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SumtheNumber/SumtheNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SumtheNumber/SumtheNumber.modulemap";
+				PRODUCT_MODULE_NAME = SumtheNumber;
+				PRODUCT_NAME = SumtheNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3CEF6CB872A1C7CC1B205047E39ABDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD612FC587B50F50885EDC61E6595296 /* Pods-SumtheNumber_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SumtheNumber_Tests/Pods-SumtheNumber_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SumtheNumber_Tests/Pods-SumtheNumber_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF508C3BCB8D93E15C2FBE1447FD462 /* Build configuration list for PBXNativeTarget "Pods-SumtheNumber_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B8BF701412C6086D1A9F0930B6BCDD /* Debug */,
+				B61F3F181C8B8A2E2662499B6D044EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185AA458D1F3BF123A008784D5F8B363 /* Build configuration list for PBXNativeTarget "SumtheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5FD4B2966D137BE9A075F8F2E09073 /* Debug */,
+				74E9EF832C142E5C49A9576929D72F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3299001F6305DF188EC2D758F2682DA0 /* Build configuration list for PBXNativeTarget "Pods-SumtheNumber_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CEF6CB872A1C7CC1B205047E39ABDE /* Debug */,
+				7709960EC0F1DC67BA68F047FA551C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

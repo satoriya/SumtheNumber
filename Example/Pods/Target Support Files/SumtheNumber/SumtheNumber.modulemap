@@ -1,0 +1,6 @@
+framework module SumtheNumber {
+  umbrella header "SumtheNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}

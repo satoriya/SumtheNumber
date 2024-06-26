@@ -1,0 +1,5 @@
+ extern const unsigned char SumtheNumberVersionString[];
+ extern const double SumtheNumberVersionNumber;
+
+ const unsigned char SumtheNumberVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SumtheNumber  PROJECT:Pods-1" "\n";
+ const double SumtheNumberVersionNumber __attribute__ ((used)) = (double)1.;

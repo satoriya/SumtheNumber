@@ -1,0 +1,16 @@
+PODS:
+  - SumtheNumber (0.1.0)
+
+DEPENDENCIES:
+  - SumtheNumber (from `../`)
+
+EXTERNAL SOURCES:
+  SumtheNumber:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SumtheNumber: 874a6a04be73577a6424c39cfe5e0dc8f9c68be6
+
+PODFILE CHECKSUM: ad6d5c5cd444b57491df9c0e459fe0983e37fad6
+
+COCOAPODS: 1.15.2

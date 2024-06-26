@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master.swiftconstvalues",
+    "dependencies" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master.d",
+    "diagnostics" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master.dia",
+    "emit-module-dependencies" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master-emit-module.dia",
+    "swift-dependencies" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master.swiftdeps"
+  },
+  "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Classes/SumtheNumber.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SumtheNumber.o",
+    "llvm-bc" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SumtheNumber.bc",
+    "object" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SumtheNumber.o"
+  },
+  "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/SwiftSupport.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SwiftSupport.o",
+    "llvm-bc" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SwiftSupport.bc",
+    "object" : "/Users/phincon/dev/IOS/MyLibs/SumtheNumber/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SwiftSupport.o"
+  }
+}
